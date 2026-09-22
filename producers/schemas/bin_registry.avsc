@@ -1,0 +1,7 @@
+{"type":"record","name":"BinRegistry","namespace":"bincast",
+ "fields":[
+   {"name":"bin_id","type":"string"},
+   {"name":"district_id","type":"string"},
+   {"name":"route_id","type":"string"},
+   {"name":"capacity_litres","type":"int"}
+ ]}

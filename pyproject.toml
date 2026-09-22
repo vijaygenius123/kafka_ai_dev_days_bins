@@ -1,0 +1,11 @@
+[project]
+name = "binsdevday"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "confluent-kafka[avro,schemaregistry]>=2.15.1",
+    "fastapi>=0.141.1",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "uvicorn>=0.53.0",
+]

@@ -1,0 +1,7 @@
+{"type":"record","name":"BinTelemetry","namespace":"bincast",
+ "fields":[
+   {"name":"bin_id","type":"string"},
+   {"name":"fill_pct","type":"double"},
+   {"name":"battery_pct","type":"double"},
+   {"name":"event_ts","type":"long","logicalType":"timestamp-millis"}
+ ]}
