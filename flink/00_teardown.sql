@@ -1,0 +1,6 @@
+
+DROP MATERIALIZED TABLE dispatch_list;
+DROP MATERIALIZED TABLE district_forecast;
+DROP MATERIALIZED TABLE bin_events_enriched;
+DROP MATERIALIZED TABLE weather_latest;
+DROP MATERIALIZED TABLE bins_keyed;
