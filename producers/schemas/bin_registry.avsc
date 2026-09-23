@@ -1,4 +1,4 @@
-{"type":"record","name":"BinRegistry","namespace":"bincast",
+{"type":"record","name":"BinRegistry","namespace":"bins",
  "fields":[
    {"name":"bin_id","type":"string"},
    {"name":"district_id","type":"string"},

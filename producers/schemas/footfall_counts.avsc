@@ -1,6 +1,6 @@
-{"type":"record","name":"FootfallCount","namespace":"bincast",
+{"type":"record","name":"FootfallCount","namespace":"bins",
  "fields":[
    {"name":"district_id","type":"string"},
    {"name":"people_count","type":"int"},
-   {"name":"event_ts","type":"long","logicalType":"timestamp-millis"}
+   {"name":"event_ts","type":{"type":"long","logicalType":"timestamp-millis"}}
  ]}
